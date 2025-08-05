@@ -6,9 +6,10 @@
 #   and converts them to MTZ format using a custom Python script.
 
 # Usage:
-#   ./extract_pandda_event.sh [space_group=XXX] <file1-sf.cif> [<file2-sf.cif> ...]
+#   ./extract_pandda_event [space_group=XXX] <file1-sf.cif> [<file2-sf.cif> ...]
 
 # === Configuration ===
+# If running externally to DLS then update this path
 SCRIPT_PATH="/dls/science/groups/i04-1/software/scripts/event_map_extractor/pandda_event_extractor.py"
 
 # === Check for required tools ===
